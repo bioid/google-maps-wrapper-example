@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <div id="map" class="map"></div>
+                <button id="addRandomMarker" class="markerButton">Add Random Marker</button>
+            </section>
+        </main>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"> </script>
+
+        <!-- We're loading gmaps without the async defer attributes, which will guarentee that the `google` object loads before anything else -->
+        <!-- This way, we don't need to use the initMap callback -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script> 
+        <script src="GoogleMapsWrapper.js" type="module"></script> 
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

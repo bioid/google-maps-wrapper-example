@@ -1,0 +1,11 @@
+.map {
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.markerButton {
+    display: block;
+    margin: 0 auto;
+    margin-top:5px;
+}
